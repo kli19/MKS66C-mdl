@@ -12,7 +12,7 @@ def run(filename):
     if p:
         (commands, symbols) = p
     else:
-        print "Parsing failed."
+        print ("Parsing failed.")
         return
 
     view = [0,
